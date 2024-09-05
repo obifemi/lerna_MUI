@@ -1,0 +1,13 @@
+/* MyButton.module.css */
+.myButton {
+    background-color: #4caf50; /* Yeşil arka plan */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+  }
+  
+  .redBackground {
+    background-color: red;
+  }
+  

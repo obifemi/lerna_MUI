@@ -8,19 +8,17 @@ function App() {
 
   return (
     <>
-      <h1 className="read-the-docs">Main App</h1>
-      <CounterComponent/>
-      <MyButton         sx={{
-          backgroundColor: 'secondary.primary', // MUI tema rengini kullanarak stil
-          '&:hover': {
-            backgroundColor: 'secondary.dark', // Hover rengini belirleme
-          },
-          color: 'white', // Yazı rengi
-          padding: '12px 24px', // Buton padding ayarı
-          borderRadius: '120px', // Köşeleri yuvarlatma
-        }} label="Click Me from main-app"  />
+      <h1 className="bg-slate-500 text-gray-900	">Main App</h1>
+      <CounterComponent />
+      <MyButton className="bg-red-700"
+        sx={{
+          color: "white", // Yazı rengi
+          padding: "12px 24px", // Buton padding ayarı
+          borderRadius: "120px", // Köşeleri yuvarlatma
+        }}
+        label="Click Me from main-app"
+      />
     </>
-   
   );
 }
 
